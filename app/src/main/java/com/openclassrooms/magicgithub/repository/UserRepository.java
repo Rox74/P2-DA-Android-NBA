@@ -16,16 +16,16 @@ public class UserRepository {
     public List<User> getUsers() {
         // TODO: A modifier V
         // return null;
-        return apiService.getUsers(); // Obtenir la liste des utilisateurs depuis l'API
+        return apiService.getUsers(); // Retrieve the list of users from the API
     }
 
     public void generateRandomUser() {
         // TODO: A modifier V
-        apiService.generateRandomUser(); // Appeler la méthode de génération d'utilisateur aléatoire dans l'API
+        apiService.generateRandomUser(); // Call the random user generation method in the API
     }
 
     public void deleteUser(User user) {
         // TODO: A modifier V
-        apiService.deleteUser(user); // Appeler la méthode de suppression d'utilisateur dans l'API
+        apiService.deleteUser(user); // Call the user deletion method in the API
     }
 }
